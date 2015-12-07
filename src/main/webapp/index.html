@@ -5,9 +5,9 @@
 	<meta name="keywords" content="jquery,ui,easy,easyui,web">
 	<meta name="description" content="easyui help you build your web page easily!">
 	<title>jQuery EasyUI CRUD Demo</title>
-	<link rel="stylesheet" type="text/css" href="http://www.jeasyui.net/Public/js/easyui/themes/default/easyui.css">
-	<link rel="stylesheet" type="text/css" href="http://www.jeasyui.net/Public/js/easyui/themes/icon.css">
-	<link rel="stylesheet" type="text/css" href="http://www.jeasyui.net/Public/js/easyui/demo/demo.css">
+	<link rel="stylesheet" type="text/css" href="themes/easyui.css">
+	<link rel="stylesheet" type="text/css" href="themes/icon.css">
+	<link rel="stylesheet" type="text/css" href="themes/demo.css">
 	<style type="text/css">
 		#fm{
 			margin:0;
@@ -29,8 +29,8 @@
 			width:80px;
 		}
 	</style>
-	<script type="text/javascript" src="http://code.jquery.com/jquery-1.6.min.js"></script>
-	<script type="text/javascript" src="http://www.jeasyui.net/Public/js/easyui/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.6.min.js"></script>
+	<script type="text/javascript" src="js/jquery.easyui.min.js"></script>
 	<script type="text/javascript">
 		var url;
 		function newUser(){
@@ -95,7 +95,7 @@
 	</div>
 	
 	<table id="dg" title="My Users" class="easyui-datagrid" style="width:700px;height:250px"
-			url="get_users.php"
+			url="UserServlet"
 			toolbar="#toolbar" pagination="true"
 			rownumbers="true" fitColumns="true" singleSelect="true">
 		<thead>
